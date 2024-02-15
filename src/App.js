@@ -1,5 +1,6 @@
 import React from "react";
-import Todo from "./component/todolist/todo";
+import Temp from "./component/weather/temp";
+// import Todo from "./component/todolist/todo";
 // import ResState from "./component/Hooks/ResState";
 // import Resturant from "./component/Basics/Resturant";
 // import ResEffect from "./component/Hooks/ResEffect";
@@ -8,7 +9,7 @@ import Todo from "./component/todolist/todo";
 const App = () => {
   return (
     <div>
-      <Todo />
+      <Temp />
     </div>
   );
 };
